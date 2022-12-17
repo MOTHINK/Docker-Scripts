@@ -1,5 +1,0 @@
-delete_all_containers.sh
-start_mongo_container.sh
-start_mysql_container.sh
-start_wordpress_container.sh
-check_existing_containers.sh
