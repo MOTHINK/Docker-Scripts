@@ -9,7 +9,7 @@ for i in "${networks[@]}"
 do
 	if [ "${i}" == "$1" ]
 	then
-	flag=true
+		flag=true
 	fi
 done
 
