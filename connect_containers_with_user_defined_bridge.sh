@@ -6,10 +6,10 @@ networks=( `sudo docker network ls | awk 'NR>1{print $2}'` )
 flag=false
 
 for i in "${networks[@]}"
-	do
-		if [ "${i}" == "$1" ]
+do
+	if [ "${i}" == "$1" ]
 	then
-		flag=true
+	flag=true
 	fi
 done
 
