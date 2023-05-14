@@ -17,7 +17,7 @@ done
 
 if [ $flag == true ]
 then
-	if [ ${#} -gt 1 ]
+	if [ ${#} -gt 0 ]
 	then
 		for((i=2;i<=$#;i++));do
 			setUserDefinedBridge=`sudo docker network connect ${1} ${!i}`
